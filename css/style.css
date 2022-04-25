@@ -1630,7 +1630,11 @@ color: #222222;
         font-size: 13px;
     }
 }
-
+@media only screen and (max-width: 700px) {
+  #mobile_remove {
+    display: none;
+  }
+}
 .reveal {
   position: relative;
   opacity: 0;
@@ -1677,13 +1681,5 @@ color: #222222;
   100% {
     transform: translateX(0);
     opacity: 1;
-  }
-}
-@media screen and (max-width: 800px) {
-  .mobile_remove {
-    display: none;
-  }
-  .mobile_section {
-    margin-top: 100px;
   }
 }
