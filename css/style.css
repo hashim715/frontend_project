@@ -1632,7 +1632,13 @@ color: #222222;
 }
 @media only screen and (max-width: 700px) {
   #mobile_remove {
-    display: none;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .mobile_view {
+    margin-left: -70px;
   }
 }
 .reveal {
