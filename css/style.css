@@ -1679,3 +1679,11 @@ color: #222222;
     opacity: 1;
   }
 }
+@media screen and (max-width: 800px) {
+  .mobile_remove {
+    display: none;
+  }
+  .mobile_section {
+    margin-top: 100px;
+  }
+}
