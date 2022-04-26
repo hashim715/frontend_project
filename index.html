@@ -45,10 +45,10 @@
 						<a class="nav-link" href="#">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Our App</a>
+						<a class="nav-link" href="team.html">Our Team</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact Us</a>
+						<a class="nav-link" href="index.html">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -416,23 +416,7 @@
 		</div>
 		</div>
 	</footer>
-	<script>
-		function reveal() {
-			var reveals = document.querySelectorAll(".reveal");
-
-			for (var i = 0; i < reveals.length; i++) {
-				var windowHeight = window.innerHeight;
-				var elementTop = reveals[i].getBoundingClientRect().top;
-				var elementVisible = 150;
-
-				if (elementTop < windowHeight - elementVisible) {
-					reveals[i].classList.add("active");
-				} else {
-					reveals[i].classList.remove("active");
-				}
-			}
-		}
-		window.addEventListener("scroll", reveal);
+	<script src="js/animation.js">
 	</script>
 	<script src="https://kit.fontawesome.com/3422bbc35a.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
