@@ -8,13 +8,14 @@ Version: 1.0.0
 
 */
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 html {
   overflow-x: hidden;
 }
 
 body {
   line-height: 1.6;
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #6F8BA4;
@@ -24,7 +25,7 @@ body {
   color: white;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "Exo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: #222;
 }
@@ -95,7 +96,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   font-weight: 700;
   letter-spacing: .5px;
   padding: .75rem 2rem;
-  font-family: "Exo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   border-radius: 5px;
   border: 2px solid transparent;
@@ -385,7 +386,7 @@ a:focus {
   padding-left: 20px;
   padding-right: 20px;
   color: rgb(248, 241, 241);
-  font-family: "Exo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
   font-size: 16px;
   transition: all .25s ease;
@@ -473,7 +474,7 @@ a:focus {
   min-height: 550px;
 }
 .banner_content p {
-  font-family: 'Poppins';
+  font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -484,7 +485,7 @@ letter-spacing: 0.02em;
 color: rgba(148, 143, 143, 0.8);
 }
 .banner_content h1 {
-  font-family: 'Lato';
+  font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 48px;
@@ -1528,7 +1529,7 @@ color: #222222;
 /* sideform */
 .side_contact h3{
   color: #222222;
-  font-family: 'Poppins';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1537,7 +1538,7 @@ color: #222222;
 
 /*  faqs - start */
 .faq_area .container h3{
-  font-family: 'Lato';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 37px;
@@ -1553,7 +1554,7 @@ color: #222222;
 .faq_area {
     position: relative;
     z-index: 1;
-    background-color: rgb(248, 238, 238);
+    background-color: rgb(255, 255, 255);
 }
 
 .faq-accordian {
@@ -1572,6 +1573,7 @@ color: #222222;
     background-color: #ffffff;
     padding: 0;
     border: 1px solid #EAEAEA;
+    border-radius: 12px;
 }
 .faq-accordian .card .card-header h6 {
     cursor: pointer;
@@ -1641,6 +1643,15 @@ color: #222222;
     margin-left: -70px;
   }
 }
+@media only screen and (max-width: 700px) {
+  .top_view {
+    display: flex;
+    justify-content: center;
+  }
+  .bottom_column {
+    margin-top: 40px;
+  }
+}
 .reveal {
   position: relative;
   opacity: 0;
@@ -1689,3 +1700,4 @@ color: #222222;
     opacity: 1;
   }
 }
+
